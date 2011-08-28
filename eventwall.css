@@ -1,0 +1,38 @@
+body {
+	margin:0 240px 15px 355px;
+}
+body>header {
+	position:fixed; top:0; left:0;
+	width:300px;
+	padding:20px;
+	background:#EEE;
+}
+body>div.wall {
+	position:fixed; top:0; right:0; bottom:0;
+	width:210px;
+	padding:15px;
+}
+body>div.attendees {
+	-moz-column-width:150px; -moz-column-gap:30px;
+	-webkit-column-width:150px; -webkit-column-gap:30px; 
+	column-width:150px; column-gap: 30px;
+}
+article {
+	width:150px;
+	padding:15px 0;
+	border-bottom:1px dotted #999;
+}
+article header h2 {
+	line-height:1em;
+	margin-bottom:.3em;
+	font-size:160%;
+}
+article header img {
+	width:100%;
+}
+article p {
+	font-size:90%;
+	line-height:1.3em;
+	max-height:4.8em;
+	overflow:hidden;
+}
