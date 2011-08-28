@@ -20,6 +20,22 @@ EventWallはイベント会場などで、大画面モニタに参加者の写�
 
 よしなに。
 
+…とか、言っていたらツッコミが来たので、PHPスクリプトの設置について、ちょっと追記します。
+
+まず、下記のような内容の設定ファイルを、どこか(path/to/my/config.php)に置きましょう。
+
+	<?php
+	$config = array(
+		'appId' => '*********',
+		'secret' => '*********',
+	);
+
+※それぞれ「*********」のところは、書き換えておいて下さい。
+
+次に、GitHubからFacebook公式SDKを取って来ます。下記の内容(3つのファイル)をどこか(path/to/fb/)に置きましょう。
+
+	https://github.com/facebook/php-sdk/tree/master/src
+
 
 開発者
 -------
